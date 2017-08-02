@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css}"/>
+    <title>Title</title>
+</head>
+<body>
+<h1>Movie Reviewer</h1>
+<div class="container-fluid"></div>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+
+        <div class="thumbnail">
+            <img src="..." alt="..."/>
+            <div class="caption" th:textf="@{movies.title}">
+                <h3></h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/javascript" th:src="@{/webjars/jquery/1.11.1/jquery.min.js}"></script>
+<script type="application/javascript" th:src="@{/webjars/bootstrap/3.3.7-1/css/bootstrap.min.js}"></script>
+
+</body>
+</html>
